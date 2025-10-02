@@ -54,6 +54,12 @@ npm start
 - `PUT /api/tasks/:id` - Update task details or completion.
 - `DELETE /api/tasks/:id` - Delete a task.
 
+## Postman Collection
+A Postman collection with all API endpoints is included in the `postman/` directory. You can import it into Postman for easy testing.
+
+## Deployment
+The live app is deployed and accessible at:  
+https://frontend-backend-task-app.vercel.app/
 ## Future Enhancements
 - Add pagination for task list.
 - Include task deadlines and reminders.
