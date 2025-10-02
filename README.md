@@ -54,9 +54,17 @@ npm start
 - `PUT /api/tasks/:id` - Update task details or completion.
 - `DELETE /api/tasks/:id` - Delete a task.
 
-## Postman Collection
-A Postman collection with all API endpoints is included in the `postman/` directory. You can import it into Postman for easy testing.
 
+## POSTMAN COLLECTION
+A Postman collection is included in the postman/ directory.
+Import it into Postman to easily test API endpoints.
+Make sure to:
+
+Use the User Login request to get the JWT token.
+
+Set the token in Postman's environment variable token.
+
+Update taskId variable after creating a task for use in update/delete requests.
 ## Deployment
 The live app is deployed and accessible at:  
 https://frontend-backend-task-app.vercel.app/
